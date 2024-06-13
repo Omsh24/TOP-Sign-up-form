@@ -1,0 +1,115 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+    overflow-x: hidden;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.boxL{
+    width: 55%;
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-repeat: cover;
+    background-size: 400px;
+    height: 100vh;
+    position: relative;
+
+    display: flex;
+}
+
+.boxL img{
+    height: 80px;
+}
+
+.boxL h1{
+    background-color: rgba(69, 69, 69, 0.715);
+    width: 350px;
+    color: white;
+    font-family: Skranji;
+    height: fit-content;
+
+    position: absolute;
+    top: 20vh;
+    display: inline;
+    padding: 10px;
+}
+
+.boxL h1 p{
+    display: inline;
+    text-align: center;
+    justify-self: center;
+
+    position: relative;
+    top:-30px;
+}
+
+.boxR{
+    position: relative;
+    background-color: white;
+    color: black;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+.sub{
+    padding-top: 20%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.card h1{
+    margin-bottom: 20px;
+}
+
+.card p{
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+form{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.244);
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.details{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 20px;
+}
+
+.details label{
+    font-weight: bold;
+}
+
+.button{
+    background-color: darkgreen;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.already{
+    margin-left: 10%;
+    margin-top: 5%;
+}
